@@ -50,6 +50,7 @@
     <Compile Include="Model\Equipment.cs" />
     <Compile Include="Model\ExtendedIngredient.cs" />
     <Compile Include="Model\Ingredient.cs" />
+    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\MealPlan.cs" />
     <Compile Include="Model\Message.cs" />
     <Compile Include="Model\Nutrition.cs" />
@@ -75,6 +76,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\Demo.resx">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

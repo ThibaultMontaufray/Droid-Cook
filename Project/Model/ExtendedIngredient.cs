@@ -25,8 +25,8 @@ namespace Droid_Cook.Model
         #region Properties
         public List<string> MetaInformation
         {
-            get { return metaInformation; }
-            set { metaInformation = value; }
+            get { return _metaInformation; }
+            set { _metaInformation = value; }
         }
         public string OriginalString
         {

@@ -20,9 +20,9 @@ namespace Droid_Cook.Model
         private string _servingSize;
         private string _numberOfServings;
         private string _imageUrl;
-        private int _averageRating;
-        private int _ratingCount;
-        private long _score;
+        private double _averageRating;
+        private double _ratingCount;
+        private double _score;
         private string _link;
         private int _spoonacularScore;
         private List<string> _breadcrumbs;
@@ -38,17 +38,17 @@ namespace Droid_Cook.Model
             get { return _link; }
             set { _link = value; }
         }
-        public long Score
+        public double Score
         {
             get { return _score; }
             set { _score = value; }
         }
-        public int RatingCount
+        public double RatingCount
         {
             get { return _ratingCount; }
             set { _ratingCount = value; }
         }
-        public int AverageRating
+        public double AverageRating
         {
             get { return _averageRating; }
             set { _averageRating = value; }

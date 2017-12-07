@@ -26,8 +26,8 @@ namespace Droid_Cook.Model
         private string _sourceUrl;
         private string _spoonacularSourceUrl;
         private int _aggregateLikes;
-        private int _spoonacularScore;
-        private int _healthScore;
+        private double _spoonacularScore;
+        private double _healthScore;
         private string _creditText;
         private string _sourceName;
         private double _pricePerServing;
@@ -127,12 +127,12 @@ namespace Droid_Cook.Model
             get { return _creditText; }
             set { _creditText = value; }
         }
-        public int HealthScore
+        public double HealthScore
         {
             get { return _healthScore; }
             set { _healthScore = value; }
         }
-        public int SpoonacularScore
+        public double SpoonacularScore
         {
             get { return _spoonacularScore; }
             set { _spoonacularScore = value; }
